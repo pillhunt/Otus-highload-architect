@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"eb6c1e39b6c9afe9","x":-185,"y":0,"width":165,"height":120,"type":"text","text":"**Файл**\nТип\nКонтент"},
+		{"id":"25eb4dea5b25b570","x":-700,"y":-460,"width":250,"height":115,"type":"text","text":"**Ссылка на документ**\nНомер документа\nОписание"},
+		{"id":"c4bad076c96a7554","x":-262,"y":-415,"width":160,"height":140,"type":"text","text":"**Чат**\nУчастники\nНазвание"},
+		{"id":"f4ee5e29fca12b89","x":-272,"y":-840,"width":180,"height":150,"type":"text","text":"**Событие**\nДата\nУчастники\nСсылка\nКонтент"},
+		{"id":"2ad69350abbde434","x":-452,"y":-230,"width":180,"height":160,"type":"text","text":"**Сообщение**\nДата\nКонтент\nПолучатели"},
+		{"id":"4d091c0ae1a8a51b","x":225,"y":-402,"width":250,"height":100,"type":"text","text":"**Уведомление**\nКонтент"},
+		{"id":"a07745cfff71b12f","x":200,"y":-607,"width":300,"height":100,"type":"text","text":"**Пользователь**\nКонтакты\nПрава"},
+		{"id":"60876536790be2fd","type":"text","text":"**Тикет**\nНомер\nКонтент","x":-20,"y":-415,"width":160,"height":140},
+		{"id":"e9a6e5aa3eaea2cb","x":580,"y":-395,"width":180,"height":87,"type":"text","text":"**Право**\nКонтент"},
+		{"id":"6006e24fc9a04372","x":200,"y":-200,"width":300,"height":100,"type":"text","text":"**Сотрудник Тех. поддержки**\nКонтакты\nПрава"}
+	],
+	"edges":[
+		{"id":"5c7ecce54d7b044a","fromNode":"2ad69350abbde434","fromSide":"right","toNode":"eb6c1e39b6c9afe9","toSide":"top"},
+		{"id":"9a2f802289e57e6e","fromNode":"c4bad076c96a7554","fromSide":"left","toNode":"2ad69350abbde434","toSide":"top"},
+		{"id":"53efb79b813e9e88","fromNode":"a07745cfff71b12f","fromSide":"left","toNode":"c4bad076c96a7554","toSide":"top"},
+		{"id":"5da5e2bdb2980838","fromNode":"6006e24fc9a04372","fromSide":"left","toNode":"c4bad076c96a7554","toSide":"bottom"},
+		{"id":"d7af555dd43c2b8d","fromNode":"2ad69350abbde434","fromSide":"left","toNode":"25eb4dea5b25b570","toSide":"bottom"},
+		{"id":"ab62fa23ef5b8626","fromNode":"4d091c0ae1a8a51b","fromSide":"top","toNode":"a07745cfff71b12f","toSide":"bottom"},
+		{"id":"82419e6740d8770c","fromNode":"4d091c0ae1a8a51b","fromSide":"bottom","toNode":"6006e24fc9a04372","toSide":"top"},
+		{"id":"12b16837565dcfae","fromNode":"a07745cfff71b12f","fromSide":"left","toNode":"f4ee5e29fca12b89","toSide":"bottom"},
+		{"id":"bacd3cc4358f9413","fromNode":"6006e24fc9a04372","fromSide":"left","toNode":"60876536790be2fd","toSide":"bottom"},
+		{"id":"380dd21d654ac033","fromNode":"a07745cfff71b12f","fromSide":"left","toNode":"60876536790be2fd","toSide":"top"},
+		{"id":"8c5188b833242e58","fromNode":"e9a6e5aa3eaea2cb","fromSide":"top","toNode":"a07745cfff71b12f","toSide":"right"},
+		{"id":"157253824a44be42","fromNode":"e9a6e5aa3eaea2cb","fromSide":"bottom","toNode":"6006e24fc9a04372","toSide":"right"}
+	]
+}
